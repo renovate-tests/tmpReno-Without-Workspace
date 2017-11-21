@@ -1,0 +1,21 @@
+{
+  "name": "tmprepo",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^21.1.2",
+    "@types/moment": "^2.13.0",
+    "concurrently": "^3.5.0",
+    "lerna": "^2.0.0"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  }
+}
